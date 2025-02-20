@@ -1,0 +1,54 @@
+* {
+    font-family: Arial, sans-serif; 
+}
+
+body {
+    background-color: #FFE5B4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#celebration-card {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 50%;
+}
+
+.title {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.celebration-image {
+    max-width: 75%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    font-size: 0.75em;
+    color: grey;
+    margin-top: 10px;
+} 
+
+.footer-logo {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
